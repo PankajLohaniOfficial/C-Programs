@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+	float a,b,mult;
+	printf("Enter the Two Number \n");
+	scanf("%f%f" , &a,&b);
+	mult=a*b;
+	printf ("\n The Multiplication of the two number is %f" , mult);
+	return 0;
+}
