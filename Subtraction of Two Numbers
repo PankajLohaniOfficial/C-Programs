@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+	float a,b,sub;
+	printf("Enter the Two Number \n");
+	scanf("%f%f" , &a,&b);
+	sum=a-b;
+	printf ("\n The Sub of the two number is %f" , sub);
+	return 0;
+}
