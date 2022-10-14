@@ -9,3 +9,7 @@ int main()
 	printf("The area of the Circle is %.2f" , area);
 	return 0;
 }
+
+
+Note :-
+%.2f is written because we want the value of the decimal till 2 points.
