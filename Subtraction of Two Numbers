@@ -4,7 +4,15 @@ int main()
 	float a,b,sub;
 	printf("Enter the Two Number \n");
 	scanf("%f%f" , &a,&b);
-	sum=a-b;
+	sub=a-b;
 	printf ("\n The Sub of the two number is %f" , sub);
 	return 0;
 }
+
+
+
+Note :-
+&a is the address of a.
+\n is used for the new line.
+%f is the format of the float value
+%d is the format of the integer value
