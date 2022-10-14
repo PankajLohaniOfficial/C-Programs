@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+	int a,b,c,d ;
+	float avg;
+	printf ( "\n Enter the Four numbers :- \n");
+	scanf ("%d%d%d%d",&a,&b,&c,&d);
+	avg = (a+b+c+d)/4.0;
+	printf (" The avg of the four numbers is %f", avg);
+	return 0;
+}
