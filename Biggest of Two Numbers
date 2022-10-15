@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+	int a,b,big;
+	printf("Enter the value of a and b :-\n");
+	scanf("%d%d", &a , &b);
+	big=a;
+	if(b>big)
+	{
+		big=b;
+	}
+	printf("The Biggest number is %d ", big);
+	return 0;
+}
+
+
+
+
+Output:-
+
+Enter the value of a and b :-
+10
+15
+The Biggest number is 15
