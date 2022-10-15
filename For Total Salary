@@ -1,0 +1,20 @@
+/* Write a Program for the total salary:-
+Where :-
+hra = bs*0.15
+ta =bs*0.10
+da = bs *0.30
+ts =bs+ hra + ta + da  */
+
+#include<stdio.h>
+int main()
+{
+	float bs,hra,ta,da,ts;
+	printf (" Enter the basic salary :- ");
+	scanf ("%f", &bs);
+	hra = bs*0.15;
+	ta = bs * 0.10;
+	da = bs * 0.30;
+	ts = bs + hra + ta + da;
+	printf ("The total salary is %f", ts);
+	return 0;
+}
