@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+  float ans;
+  int a,b;
+  a=7;
+  b=2;
+  ans = a/b;
+  printf( "The Division of the two numbers %f" , ans );
+  return 0;
+}
