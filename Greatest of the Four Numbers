@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main()
+{
+	int a,b,c,d,big;
+	printf("Enter the Four Numbers :- \n");
+	scanf("%d%d%d%d", &a,&b,&c,&d);
+	big=a;
+	if(b>big)
+	{
+		big=b;
+	}
+	if(c>big)
+	{
+		big=c;
+	}
+	if(d>big)
+	{
+		big=d;
+	}
+	printf("The Greatest Number is %d", big);
+}
+
+
+
+
+OUTPUT:-
+Enter the Four Numbers :-
+7
+9
+8
+3
+The Greatest Number is 9
