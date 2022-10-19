@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+	int unit,rate,bill;
+	printf("Enter the unit used in the electricity :- ");
+	scanf("%d",&unit);
+	if ( unit>= 2000)
+	rate = 7;
+	else if ( unit >= 1000)
+	rate=5;
+	else
+	rate = 3;
+	bill = rate * unit;
+	printf  ( "The Bill of the UPCL is %d",bill);
+	
+}
+
+
+
+Output :-
+Enter the unit used in the electricity :- 30000
+The Bill of the UPCL is 210000
+--------------------------------
