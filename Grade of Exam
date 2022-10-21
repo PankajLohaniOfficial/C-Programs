@@ -4,13 +4,13 @@ int main()
   int per;
   printf ( " Enter Percentage :- " );
   scanf ( " %d ",&per );
-  if per>=50
+  if (per>=50)
   {
-    printf ( " Pass " )
+    printf ( " Pass " );
   }
   else
   {
-    printf ( " Fail " )
+    printf ( " Fail " );
   }
   
   return 0;
