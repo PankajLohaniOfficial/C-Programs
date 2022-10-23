@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    float dist;
+    printf("Enter the Distance in Km whose unit to be changed :- /n");
+    scanf(%f,&dist);
+    m = dist*1000;
+    cm = m*100;
+    ft = 
+}
