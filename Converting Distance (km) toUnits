@@ -1,10 +1,23 @@
 #include<stdio.h>
 int main()
 {
-    float dist;
-    printf("Enter the Distance in Km whose unit to be changed :- /n");
-    scanf(%f,&dist);
-    m = dist*1000;
+    float km,m,cm,inch,ft;
+    printf("Enter the Distance in Km whose unit to be changed :- \n");
+    scanf("%f",&km);
+    m = km*1000;
     cm = m*100;
-    ft = 
+    inch = cm/2.54 ;
+    ft = inch/12 ;
+    
+    printf("The Distance in metre is :- %f \nThe Distance in centimetre is :- %f \nThe Distance in inch is :- %f \nThe Distance in feet is :-%f \n ",m,cm,inch,ft  );
+    return 0;
 }
+
+
+Output:-
+Enter the Distance in Km whose unit to be changed :-
+1000
+The Distance in metre is :- 1000000.000000
+The Distance in centimetre is :- 100000000.000000
+The Distance in inch is :- 39370080.000000
+The Distance in feet is :-3280840.000000
